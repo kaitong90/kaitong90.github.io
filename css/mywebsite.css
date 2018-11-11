@@ -6,7 +6,11 @@ body{
 	text-align:center;
 	color:#9C344C;
 }
-
+.row{
+	margin-top:25px;
+	border-radius: .25rem
+	border: 1px solid rgba(0,0,0,.125);
+}
 img{
 	width:300px;
 	height: 300px;
@@ -28,7 +32,9 @@ img{
 }
 
 .color-md-4{
-	color: pink;
+	margin-top:25px;
+	border-radius: .25rem;
+	border: 1px solid rgba(0,0,0,.125);
 }
 .longbox{
 	color:#29506D;
@@ -44,4 +50,12 @@ img{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius:.3rem;
+}
+.shape{
+	padding-top: 10px;
+	margin-top:25px;
+	border-radius: .25rem;
+	border: 1px solid rgba(0,0,0,.125);;
+	font-size: 20px;
 }
